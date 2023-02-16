@@ -100,3 +100,6 @@ def test_create_user_rus_letter_in_first_name_get_success_response():
     assert users_table_response.text.count(str_user) == 1
     print(user_response.headers)
     print(user_response.text)
+
+
+
